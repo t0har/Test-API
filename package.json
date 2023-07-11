@@ -1,0 +1,29 @@
+{
+  "name": "nodejsapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "cors": "2.8.1",
+    "express": "~4.0.0",
+    "fs": "^0.0.1-security",
+    "html-pdf-node": "^1.0.8",
+    "msnodesqlv8": "^4.1.0",
+    "mssql": "^6.4.1",
+    "pdf-lib": "^1.17.1",
+    "qr-image": "^3.2.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "keywords": [],
+  "author": "Test",
+  "license": "ISC"
+}
